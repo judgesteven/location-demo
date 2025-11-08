@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-elisa-light via-white to-blue-50;
+    @apply min-h-screen;
+    @apply max-w-[430px] mx-auto;
+    @apply font-sans;
+  }
+}
+
+@layer utilities {
+  .mobile-container {
+    @apply max-w-[430px] mx-auto;
+    @apply min-h-screen;
+    @apply bg-white;
+    @apply shadow-lg;
+  }
+}
+
+/* Leaflet styles */
+@import 'leaflet/dist/leaflet.css';
+

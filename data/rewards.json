@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "title": "5G Pioneer Badge",
+    "description": "Explored your first 5G Zone",
+    "icon": "🛰️",
+    "earned": true,
+    "date": "2024-01-15"
+  },
+  {
+    "id": 2,
+    "title": "Helsinki Explorer",
+    "description": "1 GB data bonus",
+    "icon": "🗺️",
+    "earned": true,
+    "date": "2024-01-20"
+  },
+  {
+    "id": 3,
+    "title": "Eco Warrior",
+    "description": "Visited 5 recycling points",
+    "icon": "♻️",
+    "earned": false,
+    "date": null
+  },
+  {
+    "id": 4,
+    "title": "Coffee Lover",
+    "description": "Coffee Coupon - 20% off",
+    "icon": "☕",
+    "earned": true,
+    "date": "2024-01-18"
+  },
+  {
+    "id": 5,
+    "title": "City Navigator",
+    "description": "Explored 10 locations",
+    "icon": "🧭",
+    "earned": false,
+    "date": null
+  }
+]
+

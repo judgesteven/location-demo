@@ -1,0 +1,23 @@
+[
+  { "rank": 1, "name": "Mika Virtanen", "xp": 12500, "tier": "Platinum" },
+  { "rank": 2, "name": "Emma Korhonen", "xp": 11200, "tier": "Gold" },
+  { "rank": 3, "name": "Jussi Nieminen", "xp": 10800, "tier": "Gold" },
+  { "rank": 4, "name": "Sofia Lahti", "xp": 9800, "tier": "Gold" },
+  { "rank": 5, "name": "Lucas Mäkinen", "xp": 9200, "tier": "Gold" },
+  { "rank": 6, "name": "Aino Järvinen", "xp": 8700, "tier": "Silver" },
+  { "rank": 7, "name": "Eero Koskinen", "xp": 8200, "tier": "Silver" },
+  { "rank": 8, "name": "Linnea Hakkarainen", "xp": 7800, "tier": "Silver" },
+  { "rank": 9, "name": "Olli Rantanen", "xp": 7400, "tier": "Silver" },
+  { "rank": 10, "name": "Ida Salonen", "xp": 7000, "tier": "Silver" },
+  { "rank": 11, "name": "Ville Toivonen", "xp": 6800, "tier": "Silver" },
+  { "rank": 12, "name": "Noora Lehtonen", "xp": 6500, "tier": "Silver" },
+  { "rank": 13, "name": "Aleksi Kinnunen", "xp": 6200, "tier": "Silver" },
+  { "rank": 14, "name": "Sara Mattila", "xp": 5900, "tier": "Silver" },
+  { "rank": 15, "name": "Joonas Hämäläinen", "xp": 5600, "tier": "Silver" },
+  { "rank": 16, "name": "Katri Saarinen", "xp": 5300, "tier": "Silver" },
+  { "rank": 17, "name": "Ella", "xp": 2450, "tier": "Silver", "isCurrentUser": true },
+  { "rank": 18, "name": "Henri Laine", "xp": 2400, "tier": "Bronze" },
+  { "rank": 19, "name": "Jenni Kivinen", "xp": 2100, "tier": "Bronze" },
+  { "rank": 20, "name": "Antti Rautio", "xp": 1800, "tier": "Bronze" }
+]
+

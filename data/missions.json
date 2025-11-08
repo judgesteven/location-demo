@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "title": "5G Explorer",
+    "description": "Visit an Elisa 5G Zone",
+    "reward": "500 XP + 1 GB bonus data",
+    "status": "active",
+    "lat": 60.1699,
+    "lon": 24.9384,
+    "icon": "🛰️"
+  },
+  {
+    "id": 2,
+    "title": "Recycle Hero",
+    "description": "Visit a recycling point",
+    "reward": "300 XP + Eco Badge",
+    "status": "active",
+    "lat": 60.1715,
+    "lon": 24.9412,
+    "icon": "♻️"
+  },
+  {
+    "id": 3,
+    "title": "Coffee & Connection",
+    "description": "Visit Espresso House near 5G Zone",
+    "reward": "300 XP + Coffee Coupon",
+    "status": "active",
+    "lat": 60.1680,
+    "lon": 24.9350,
+    "icon": "☕"
+  },
+  {
+    "id": 4,
+    "title": "City Center Explorer",
+    "description": "Check in at Helsinki Central Station",
+    "reward": "400 XP + Explorer Badge",
+    "status": "active",
+    "lat": 60.1716,
+    "lon": 24.9415,
+    "icon": "🚂"
+  },
+  {
+    "id": 5,
+    "title": "Tech Hub Visit",
+    "description": "Visit Elisa Store in Kamppi",
+    "reward": "600 XP + Tech Badge",
+    "status": "active",
+    "lat": 60.1689,
+    "lon": 24.9316,
+    "icon": "📱"
+  },
+  {
+    "id": 6,
+    "title": "Waterfront Walk",
+    "description": "Visit the Helsinki Waterfront",
+    "reward": "350 XP + Nature Badge",
+    "status": "active",
+    "lat": 60.1640,
+    "lon": 24.9520,
+    "icon": "🌊"
+  }
+]
+
