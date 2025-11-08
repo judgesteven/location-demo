@@ -1,12 +1,23 @@
 'use client'
 
+import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import leaderboardData from '@/data/leaderboard.json'
-import { getUserState } from '@/lib/storage'
+import { getUserState, UserState } from '@/lib/storage'
+
+const DEFAULT_USER_STATE: UserState = {
+  xp: 2450,
+  completedMissions: [],
+  tier: 'Silver',
+}
 
 export default function Leaderboard() {
-  const userState = getUserState()
+  const [userState, setUserState] = useState(DEFAULT_USER_STATE)
   const currentUserRank = leaderboardData.find((entry) => entry.isCurrentUser)?.rank || 17
+
+  useEffect(() => {
+    setUserState(getUserState())
+  }, [])
 
   const tierColors = {
     Bronze: 'text-amber-600',
@@ -33,7 +44,7 @@ export default function Leaderboard() {
         className="bg-gradient-to-r from-elisa-blue to-elisa-cyan rounded-2xl p-4 text-white shadow-lg"
       >
         <p className="text-sm opacity-90 mb-1">Your Rank</p>
-        <p className="text-2xl font-bold">You're ranked #{currentUserRank} 🏆</p>
+        <p className="text-2xl font-bold">You&apos;re ranked #{currentUserRank} 🏆</p>
         <p className="text-sm mt-2 opacity-90">{userState.xp} XP • {userState.tier} Explorer</p>
       </motion.div>
 

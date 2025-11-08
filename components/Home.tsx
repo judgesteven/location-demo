@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { getUserState } from '@/lib/storage'
+import { getUserState, UserState } from '@/lib/storage'
 import missionsData from '@/data/missions.json'
 import XPProgressBar from './XPProgressBar'
 import MissionCard from './MissionCard'
@@ -12,8 +12,14 @@ interface HomeProps {
   onNavigate?: (page: Page) => void
 }
 
+const DEFAULT_USER_STATE: UserState = {
+  xp: 2450,
+  completedMissions: [],
+  tier: 'Silver',
+}
+
 export default function Home({ onNavigate }: HomeProps) {
-  const [userState, setUserState] = useState(getUserState())
+  const [userState, setUserState] = useState(DEFAULT_USER_STATE)
   const activeMissions = missionsData.slice(0, 3)
 
   useEffect(() => {

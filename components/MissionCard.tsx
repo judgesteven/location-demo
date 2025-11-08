@@ -1,5 +1,6 @@
 'use client'
 
+import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { isMissionCompleted } from '@/lib/storage'
 
@@ -18,7 +19,11 @@ interface MissionCardProps {
 }
 
 export default function MissionCard({ mission, onClick }: MissionCardProps) {
-  const completed = isMissionCompleted(mission.id)
+  const [completed, setCompleted] = useState(false)
+
+  useEffect(() => {
+    setCompleted(isMissionCompleted(mission.id))
+  }, [mission.id])
 
   return (
     <motion.div
